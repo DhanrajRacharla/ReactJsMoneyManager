@@ -1,0 +1,85 @@
+/* Write your CSS here */
+
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-size: cover;
+  width: 880px;
+}
+
+.balance-details-background {
+  background-color: #ecfccb;
+  background-size: cover;
+  width: 280px;
+  height: 150px;
+  padding: 25px;
+  border: 1px solid #84cc16;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.balance-details-image {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.income-details-background {
+  background-color: #cffafe;
+  background-size: cover;
+  width: 280px;
+  height: 150px;
+  padding: 25px;
+  border: 1px solid #06b6d4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.income-details-image {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.expenses-details-background {
+  background-color: #ede9fe;
+  background-size: cover;
+  width: 280px;
+  height: 150px;
+  padding: 25px;
+  border: 1px solid #7c3aed;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.expenses-details-image {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.type-and-rupees {
+  padding-left: 45px;
+}
+.type {
+  font-family: 'roboto';
+  font-size: 14px;
+  color: #7e858e;
+  font-weight: 500;
+}
+.rupees {
+  font-family: 'roboto';
+  font-size: 22px;
+  color: #475569;
+  font-weight: 500;
+}

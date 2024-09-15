@@ -1,0 +1,120 @@
+/* Write your CSS here */
+.money-manager-container {
+  background-size: cover;
+  background-color: #ffffff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.transaction-holder-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 20px;
+  min-width: 880px;
+  border-radius: 10px;
+}
+.holder-name {
+  font-family: 'roboto';
+  font-size: 23px;
+  font-weight: 600;
+  color: #475569;
+}
+.greetings-holder {
+  font-family: 'roboto';
+  font-size: 13px;
+  font-weight: 600;
+  color: #475569;
+}
+.greetings-holder span {
+  color: #0b69ff;
+}
+
+.history-form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-container,
+.history-container {
+  padding: 30px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  width: 380px;
+  margin-top: 26px;
+}
+.form-heading,
+.history-heading {
+  font-family: 'roboto';
+  font-size: 33px;
+  font-weight: 600;
+  color: #334155;
+}
+
+label {
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #7e858e;
+}
+
+input,
+select {
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #7e858e;
+  width: 95%;
+  outline: 0px;
+  border: 1px solid #7e858e;
+  border-radius: 5px;
+  padding: 7px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+select {
+  font-size: 15px;
+}
+button {
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #0b69ff;
+  outline: 0;
+  border-radius: 5px;
+  padding: 10px;
+  border: 0px;
+  margin-top: 5px;
+}
+
+.history-container {
+  width: 480px;
+  margin-bottom: 0px;
+}
+
+.history-tabs {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #d7dfe9;
+  padding: 5px;
+  padding-left: 15px;
+}
+.history-tabs p {
+  font-family: 'roboto';
+  font-size: 17px;
+  font-weight: 600;
+  color: #334155;
+  margin-right: 18%;
+}
+
+.transaction-items {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
